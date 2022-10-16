@@ -37,6 +37,6 @@ As per the acceptance criteria, this page:
 
 Hi my name is Liam! I'm nineteen years old, and currently enrolled in the Vanderbilt Coding Bootcamp. I'm hoping to become a developer so I can live wherever I need, and have the ability to move across country to live with the one I love. These are some of my current projects I've completed. I can't wait to see it expand as my knowledge increases!
 
-# Link To Deployed Site
+# Link To Deployed Site: https://liam-a-34.github.io/week-2-bootcamp-challenge/
 
 * Live Site link:
