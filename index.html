@@ -4,72 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Week Two Challenge Portfolio Landind Page</title>
+    <title>Week Two Challenge Portfolio Landing Page</title>
 </head>
+
 <body>
+    
     <header>
-        <h1><span class-="right">My Portfolio</span></h1>
-        <nav class="links">
-            <a class="link" href="#about-me">About Me</a>
-            <a class="link" href="work">Work</a>
-            <a class="link" href="contact-me">Contact Me</a>
-            <a class="link" href="header">Resume</a>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="./resume.html">Resume</a>
+                </li>
+            </ul>
         </nav>
     </header>
-    <div class="secondary-header">
-        <h2 class="subtitle">It's coding time!</h2>
-    </div>
 
-    <main>
-        <section>
-            <h3 class="about-me">About Me</h3>
-            <h3 class="work">Work</h3>
-            <div class="info">
-                <p>
-                    Hi! My name is Liam!
-                    I'm 19 years old, and currently participating in the Vanderbilt coding bootcamp.
-                    I don't have much experience yet, but I know I will expand my knowledge in short order with the work ahead of me.
-                </p>
-                <p>
-                    I've been a farmer pretty much my whole life, and went in to the work force right after highschool.
-                    That's probably where I found out I didn't want to be doing that my whole life.
-                    I'm currently in a long distance relationship, and full time in a warehouse didn't exactly make that any easier.
-                    I'm hoping to become a developer so I can work remotely, and move wherever I need so I can be with the one I love.
-                </p>
-            </div>
-        </section>
-        <section class="big-card">
-                <a href="https://liam-a-34.github.io/prework-study-guide/">
-                    <img class="big" src="./assets/Screenshot_24.pn" alt="Image of my first project, a study guide for the bootcamp prework"/>
-                </a>
-                <ul class="tag-box">
-                    <li class="tag">
+    <section class="hero">
+        <h2>It's Coding Time!</h2>
+    </section>
+
+    <section class="content">
+
+        <article class="about-me" id="about-me">
+            <h1>About Me</h1>
+            <p>Hi my name is Liam! I'm nineteen years old, and currently enrolled in the Vanderbilt Coding Bootcamp. I'm hoping to become a developer so I can live wherever I need, and have the ability to move across country to live with the one I love. These are some of my current projects I've completed. I can't wait to see it expand as my knowledge increases!</p>
+        </article>
+
+        <article class="work" id="work">
+
+            <h1>Work</h1>
+
+            <div class="projects">
+
+                <div class="project-container primary-project">
+                    <a href="https://liam-a-34.github.io/bootcamp-work/" target="_blank">
+                        <img src="./assets/Screenshot_25.png" alt="Landing page for info about me and contact information" class="project"></img>
+                    </a>
+                    <h3>
+                        Landing Page
+                        <p class="project-stack">HTML/CSS</p>
+                    </h3>
+                </div>
+
+                <div class="project-container margin-right">
+                    <a href="https://liam-a-34.github.io/prework-study-guide/" target="_blank">
+                        <img src="./assets/Screenshot_24.png" alt="Bootcamp Prework Study Guide" class="project"></img>
+                    </a>
+                    <h3>
                         Study Guide
-                    </li>
-                    <li class="tag-2">
-                        HTML/CSS
-                    </li>
-                </ul>
-        </section>
-        <section class="small-cards">
-            <div>
-                <a href="liam-a-34.github.io/bootcamp-work/">
-                    <img class="small-card" src="./assets/Screenshot_25.pn" alt="Image of my second website I've made">
-                </a>
-                <ul class="tag-box">
-                    <li class="tag">
+                        <p class="project-stack">HTML/CSS</p>
+                    </h3>
+                </div>
+                    
+                <div class="project-container margin-left">
+                    <a href="https://liam-a-34.github.io/october-17-bootcamp-challenge/" target="_blank">
+                        <img src="./assets/Screenshot_26.png" alt="Horiseon Digital Marketing Agency Landing Page" class="project"></img>
+                    </a>
+                    <h3>
+                        Horiseon Page
+                        <p class="project-stack">HTML/CSS</p>
+                    </h3>
 
-                    </li>
-                    <li class="tag-2">
+                </div>
 
-                    </li>
-                </ul>
+                <div class="project-container margin-right">
+                    <a href="https://liam-a-34.github.io/Rush-Point-Value-List/" target="_blank">
+                        <img src="./assets/Screenshot_27.png" alt="Placeholder for future work" class="project"></img>
+                    </a>                     
+                    <h3>
+                        Skin Value List
+                        <p class="project-stack">HTML/CSS</p>
+                    </h3>
+                </div>
+
+                <div class="project-container margin-left">
+                    <img src="./assets/Screenshot_25.png" alt="Placeholder for future work" class="project"></img>
+                    <h3>
+                        Placeholder Work
+                        <p class="project-stack">HTML</p>
+                    </h3>
+                </div>
+
             </div>
-        </section>
-        </div>
-    </main>
-    
+
+        </article>
+
+    </section>
+
+    <footer class="contact-me" id="contact-me">
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li>555.555.5555</li>
+                <li>
+                    <a href="mailto:liamallen343@gmail.com">liamallen343@gmail.com</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Liam-a-34" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/user/kgimn8l6p8f5hod3exi8bafbf" target="_blank">Spotify</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
 </body>
+
 </html>
