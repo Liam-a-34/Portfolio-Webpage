@@ -33,11 +33,6 @@ header {
 
 }
 
-.avatar {
-    height: 50px;
-    width: 50px;
-}
-
 header h1 {
     background: #92CCCE;
     color: #31353D;
@@ -46,7 +41,7 @@ header h1 {
     padding: 5px 5px 5px 50px;
     margin: 1.5% 0;
 }
-
+/* Styling for the navigation links in the header */
 header nav {
     color: #92CCCE;
     font-weight: lighter;
@@ -73,7 +68,7 @@ header nav ul li {
 }
 
 /* Header End */
-
+/* Main styling for the image below the header */
 .hero {
     background: #92CCCE;
     color: #31353D;
@@ -102,7 +97,7 @@ header nav ul li {
     width: 95%;
 }
 
-
+/* About me section to the left of the content */
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -113,7 +108,7 @@ header nav ul li {
     padding: 0 10px;
     width: 80%;
 }
-
+/* Work section to the left of the content */
 .work {
     display: flex;
     justify-content: space-between;
@@ -161,7 +156,7 @@ header nav ul li {
     object-fit: cover;
     object-position: left;
 }
-
+/* Makes the image brighter when hovered over */
 .project-container img:hover {
     filter: brightness(100%);
 }
@@ -189,7 +184,7 @@ footer {
 footer a {
     color: #455978;
 }
-
+/* Styling for footer navigation links */
 footer nav {
     width: 80%;
     padding: 0 10px;
@@ -207,7 +202,7 @@ footer nav li {
     padding: 3px 10px;
     margin: 10px;
 }
-/* Makes edits for tablet sized screens */
+/* Formats for tablet sized screens */
 @media screen and (max-width: 980px){
     section h1, 
     footer h1{
