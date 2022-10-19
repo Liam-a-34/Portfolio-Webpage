@@ -1,4 +1,4 @@
-# Coding Bootcamp Week 2 Challenge
+# Week Two Challenge Portfolio Website
 
 This is my submission for the second week bootcamp challenge!
 
