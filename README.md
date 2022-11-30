@@ -39,4 +39,4 @@ Hi my name is Liam! I'm nineteen years old, and currently enrolled in the Vander
 
 # Link To Deployed Site
 
-* Live Site link: https://liam-a-34.github.io/week-two-challenge-portfolio-website/
+* Live Site link: https://liam-a-34.github.io/Portfolio-Webpage/
